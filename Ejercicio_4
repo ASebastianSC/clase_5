@@ -1,0 +1,14 @@
+INICIO
+
+LEER Examen1
+LEER Examen2
+LEER Examen3
+
+PROMEDIO = (Examen1+Examen2+Examen3) / 3
+
+SI PROMEDIO >= 8.5 ENTONCES
+    Escribe "PREMIO"
+SINO
+    Escribe "CASTIGO"
+
+FIN-SI

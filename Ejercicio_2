@@ -1,0 +1,17 @@
+INICIO
+    LEER NIVEL
+
+    SI  NIVEL >=9 ENTONCES
+        ESCRIBE "Aprendiz"
+    SINO
+        SI NIVEL >=19 ENTONCES
+            ESCRIBE "Acróbata"
+        SINO
+            SI NIVEL <=20 ENTONCES
+                ESCRIBE "Ninja"
+            SINO
+                "ERROR"
+            FIN-SI
+        FIN-SI
+    FIN-SI
+FIN

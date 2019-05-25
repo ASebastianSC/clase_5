@@ -1,0 +1,10 @@
+INICIO
+    LEER Hambre
+
+    SI Hambre ENTONCES
+        ESCRIBRE "TRISTE"
+    SINO 
+        ESCRIBRE "FELIZ"
+
+    FIN-SI
+FIN

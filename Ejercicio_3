@@ -1,0 +1,9 @@
+INICIO
+    LEER NOMBRE
+    LEER CONTRASEÑA
+
+    SI NOMBRE === sebastian && CONTRASEÑA ==== sebastian1 ENTONCES
+        ESCRIBE "acceso concedido"
+    SINO
+        ESCRIBE "INCORRECTO"
+    FIN-SI

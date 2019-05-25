@@ -1,0 +1,21 @@
+INICIO
+    LEER DIA
+
+    SI DIA === LUNES ENTONCES
+        ESCRIBE "HISTORIA"
+    SINO
+        SI DIA === MARTES ENTONCES
+            ESCRIBE "Natacion"
+        SINO
+            SI DIA === Miercoles ENTONCES
+                ESCRIBE "historia"
+            SINO
+                SI DIA === JUEVES ENTONCES
+                    ESCRIBE "Esgrima"
+                SINO 
+                    ESCRIBE "Descanso"
+                FIN-SI
+            FIN-SI
+        FIN-SI
+    FIN-SI
+FIN

@@ -1,0 +1,19 @@
+INICIO
+    LEER DADO1
+    LEER DADO2
+    LEER DADO3
+
+    SI DADO1 === DADO2 ENTONCES
+        ESCRIBE "ganaste!"
+    SINO
+        SI DADO2 === DADO3 ENTONCES
+            ESCRIBE "ganaste!"
+        SINO
+            SI DADO3 === DADO1 ENTONCES
+                ESCRIBE "ganaste!"
+            SINO
+                ESCRIBE "Perdiste!"
+            FIN-SI
+        FIN-SI
+    FIN-SI
+FIN
