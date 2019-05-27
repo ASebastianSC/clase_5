@@ -1,7 +1,7 @@
-        const nombre = console.log("nombre")
-        const password = console.log("password")
+        const nombre = "nombre"
+        const password = "password"
         if (password === "sebastian" && nombre === "sebastian") {
-            "Erest tu!"
+            console.log("Erest tu!")
         } else {
-            "Incorrecto"
+            console.log("Incorrecto")
         }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="application/javascript">
+        const lunes = Boolean(prompt("es lunes? si no, dejalo en blanco"))
+        const martes = Boolean(prompt("es martes? no, dejalo en blanco"))
+        const miercoles = Boolean(prompt("es miercoles? no, dejalo en blanco"))
+        const jueves = Boolean(prompt("es jueves? no, dejalo en blanco"))
+        if (lunes) {
+            alert("toca historia!")
+        } else {
+            if (martes) {
+                alert("toca natación!")
+            } else {
+                if (miercoles) {
+                    alert("toca historia!")
+                 } else {
+                     if (jueves) {
+                        alert("toca esgrima!")
+                    }else{
+                        alert("descansa!")
+                    }
+                 }
+            }
+        }
+    </script>
+</head>
+</html>
